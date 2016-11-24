@@ -63,7 +63,7 @@ unsigned int __stdcall keyEvent(void*) {
 	return 0;
 }
 
-int main() {
+/*int main() {
 	HANDLE handleA, handleB;
 
 	handleA = (HANDLE)_beginthreadex(0, 0, &mythread, (void*)0, 0, 0);
@@ -76,4 +76,4 @@ int main() {
 	CloseHandle(handleB);
 
 	return 0;
-}
+}*/
